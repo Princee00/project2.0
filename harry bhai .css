@@ -1,0 +1,127 @@
+body{
+      
+      background-image: url("background-image.png");
+      
+      background-repeat: no-repeat;
+      background-position: center center ;
+      background-size: cover;
+      
+      height: 100vh;
+      width: 100vw;
+     
+}
+.nav{
+      display: grid;
+      grid-template-columns: 150px 1200px 100px;
+}
+
+.first1{
+      display: flex;
+      justify-content:center;
+      gap: 20px;
+     
+      
+ }
+ .att:hover{
+     color: rgb(23, 21, 21);
+    background-color: palevioletred;
+ }
+ li{
+      list-style: none;
+      
+ }
+ .car_butt{
+      border: none;
+      margin-left:50%;
+      border-radius: 20px;
+      width: 150px;
+      height: 50px;
+      margin-top: 100px;
+      filter: drop-shadow(10px 10px 10px black);
+      font-size: 20px;
+ }
+ .car_text{
+      font-size: 25px;
+
+ }
+ .home_lone{
+      border: none;
+      border-radius: 20px;
+     margin-left: 1300px;
+     height: 50px;
+     width: 160px;
+     filter: drop-shadow(10px 10px 10px black);
+ }
+ .lat{
+      display: flex;
+      height: 35px;
+      margin-top: 15px;
+      margin-left: 100px;
+
+      gap: 20px;
+ }
+ a{
+      color: black;
+      text-decoration: none;
+      font-size: 20px;
+ }
+ .nav_last{
+      display: flex;
+      justify-content: end;
+      font-size: 25px;
+      background-color: rgb(197, 39, 147);
+      color: whitesmoke;
+      border-radius: 5px;
+      border: none;
+      height: 35px;
+      width: 150px;
+      
+ }
+ .hero{
+      height: 500px;
+     
+ }
+ .middle{
+      display: grid;
+      grid-template-columns: 800px 900px;
+    
+ }
+ .text{
+      margin-left: 10%;
+     font-size: 20px;
+    border-radius: 7px; 
+   
+      
+ }
+ #big{
+      font-size: 70px;
+     
+ }
+ #textb{
+background-color:rgb(197, 39, 147); 
+     color: whitesmoke;
+     font-size:20px ;
+     border: none;
+     height: 30px;
+    
+ }
+ #textbu{
+background-color: white;
+color: rgb(197, 39, 147);
+font-size:20px ;
+border: 2px solid palevioletred;
+height: 30px;
+ }
+ .icon{
+      display: flex;
+      gap: 20px;
+      
+      
+ }
+ .like_footer{
+     margin-top: 00px;
+ }
+
+
+
+ 
